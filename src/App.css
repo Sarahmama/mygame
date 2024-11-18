@@ -1,5 +1,13 @@
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family:monospace;
+
 }
 
 .App-logo {
@@ -36,3 +44,22 @@
     transform: rotate(360deg);
   }
 }
+.square{
+  width: 650px;
+  background-color: #dde5b6;
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+border-radius: 20px;
+}
+.circle{
+  background-color: #282c34;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 30px 20px;
+  border: 5px dashed #f1cf80 ;
+  overflow: hidden;
+  display: flex;
+justify-content: center;
+align-items: center;}
